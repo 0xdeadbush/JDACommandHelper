@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group '0x.deadbush.jdacmd'
+group 'com.deadbush.jdacmd'
 version '1.0'
 
 repositories {
@@ -10,5 +10,5 @@ repositories {
 }
 
 dependencies {
-    implementation("net.dv8tion:JDA:VERSION")
+    implementation("net.dv8tion:JDA:5.0.0-alpha.6")
 }
