@@ -11,11 +11,11 @@ public @interface CommandDescriptor {
 
     Permission permission() default Permission.UNKNOWN;
 
-    int[] allowedRoles() default {};
+    String[] allowedRoles() default {};
 
-    int[] allowedChannels() default {};
+    String[] allowedChannels() default {};
 
-    int[] disallowChannels() default {};
+    String[] disallowChannels() default {};
 
-    int[] allowUser() default {};
+    String[] allowUser() default {};
 }
