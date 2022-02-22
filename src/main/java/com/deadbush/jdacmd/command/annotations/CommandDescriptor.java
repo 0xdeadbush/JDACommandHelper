@@ -7,7 +7,7 @@ public @interface CommandDescriptor {
 
     String description() default "This command didn't have any description yet !";
 
-    String[] argsSyntaxe();
+    String[] argsSyntaxe() default {};
 
     Permission permission() default Permission.UNKNOWN;
 
